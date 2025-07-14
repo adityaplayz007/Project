@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+   
+    
+    
+}
+.leadnig-page{
+    background-image: url("100.avif");
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+
+}
+.mid-profile{
+    background-image: url("100(1).avif");
+    height: 500px;
+    width: 500px;
+
+}
+.mid-profile h1{
+    display: flex;
+    color: #000;
+    justify-content: space-between;
+    margin-left: 450px;
+    font-size: 2em;
+    
+}
+.text-mid-bold{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 600px;
+    color: red;right: inherit;
+    font-size: larger;
+    font-weight: normal;
+
+}
+.text-mid{
+    /* margin-left: 600px; */
+    justify-content: space-between;
+    display: flex;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo-square {
+    width: 50px;
+    height: 50px;
+    background-color: black; 
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 1.8rem;
+    color: #000;
+}
+
+p {
+    color: #666;
+    font-size: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px; 
+    color: #444;
+}
+
+.reserve-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #000; 
+    color: #fff; 
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.reserve-button:hover {
+    background-color: #444; 
+    /*vese to ab khatam hu mai */
+}
+
+.display-flex{
+    /* display: flex; */
+}
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.intro-image img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-top: 100px;
+}
+
+.intro-text {
+  max-width: 600px;
+}
+
+.intro-text h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: #111;
+  margin-right: 100px;
+}
+
+.intro-text h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.intro-text p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Responsive for small screens */
+@media (max-width: 768px) {
+  .intro {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .intro-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .intro-text h3 {
+    font-size: 1rem;
+  }
+
+  .intro-text p {
+    font-size: 0.95rem;
+  }
+}
+
+.cherry{
+    margin-left: -70px;
+}
+.learn-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.heading {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.box {
+  position: relative;
+  width: 200px;
+}
+
+.number {
+  font-size: 120px;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0.1;
+  z-index: 0;
+}
+
+.number1 {
+  color: #f1a10a;
+}
+
+.number2 {
+  color: #650fdd;
+}
+
+.number3 {
+  color: #ba13db;
+}
+
+.box p {
+  position: relative;
+  z-index: 1;
+  font-size: 16px;
+  margin-top: 60px;
+  line-height: 1.5;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.reserve-btn {
+  padding: 12px 24px;
+  font-size: 14px;
+  border: 1px solid #000;
+  border-radius: 25px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.reserve-btn:hover {
+  background-color: #0af1f1;
+}
+.peoplesay{
+  background-color: rgba(0, 137, 115, 0.366);
+  width: 95%;
+  margin-left: 50px;
+  padding: 100px 50px;
+  margin-top: 50px;
+}
+.peoplesay h1{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+.peoplesay p{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 60px;
+  text-align: center;
+}
+.box0 h1{
+  font-size: 40px;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+.img1{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 200px ;
+    align-items: center;
+    margin-top: 10px;
+}
+.container {
+  display: flex;
+  height: 70vh;
+  width: 90%;
+  margin-left: 100px;
+  margin-bottom: 80px;
+}
+
+.leftside, .right {
+  flex: 1;
+  padding: 60px 40px;
+}
+
+.leftside {
+  background-color: #e6937c;
+  color: rgb(209, 199, 199);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftside h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.leftside label {
+  font-size: 16px;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+
+.leftside input[type="email"] {
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #f1a78b;
+  background: none;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.checkbox-container input {
+  margin-right: 10px;
+}
+
+.send-button{
+  background-color: #f1a78b;
+  color: black;
+  border: none;
+  padding: 12px 40px;
+  border-radius: 25px;
+  font-size: 18px;
+  cursor: pointer;
+  max-width: 200px;
+  margin-bottom: 30px;
+}
+
+.contact-info p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons i {
+  font-size: 20px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.rightside {
+  background-color: #f1a78b;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightside h2 {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.reserve-btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: transparent;
+  border: 2px solid #1e1f22;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.plant {
+  position: absolute;
+  right: 60px;
+  bottom: 60px;
+  width: 120px;
+}
+
+.clips {
+  position: absolute;
+  left: 60px;
+  bottom: 60px;
+  width: 100px;
+}
+
+
